@@ -1,17 +1,10 @@
-from flask import Flask
+from flask import Flask, render_template
 
 app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return '''
-        <html>
-            <head>
-                <title>Meine erste Flask-Seite</title>
-            </head>
-            <body>
-                <h1>Willkommen!</h1>
-                <p>Das ist meine erste Webseite, serviert von Flask.</p>
-            </body>
-        </html>
-    '''
+    return render_template('index.html')
+
+if __name__ == '__main__':
+    app.run(debug=True)
