@@ -17,3 +17,10 @@
 #start{
     text-align: center;
 }
+
+#Knopf{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row;
+}
