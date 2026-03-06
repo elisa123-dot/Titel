@@ -6,10 +6,11 @@ app = Flask(__name__)
 def index():
     if request.method == 'POST':
         Eingabe = request.form.get('Eingabe')
-        if int(Eingabe) == 884900:
-            return "richtig"
-        else :
-            return "falsch"    
+        {% if int(Eingabe) == 884900 %}
+            <p>richtig</p>
+        {% else %}
+            <p>return "falsch"</p>
+        {% endif %}        
 
     return render_template('index.html')
 
