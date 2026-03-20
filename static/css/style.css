@@ -2,10 +2,17 @@
 
 #kopf {
     border: 2px #eee solid;
-    color: brown;
+    color: #aa205c;
     text-align: center;
     padding: 10px;
     font-family: Impact;
+}
+
+.box {
+    width:300px;
+    height: auto;
+    background-image: url('../images/Logo.jpeg');
+    background-size: contain;
 }
 
 #rand {
@@ -22,8 +29,17 @@
 }
 
 #Knopf{
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: stretch;
     flex-direction: row;
+    background-color: #aa205c;
+}
+
+#form-label{
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+
 }
