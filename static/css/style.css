@@ -1,8 +1,11 @@
+
+
 #kopf {
     border: 2px #eee solid;
     color: brown;
     text-align: center;
     padding: 10px;
+    font-family: Impact;
 }
 
 #rand {
