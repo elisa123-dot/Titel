@@ -12,7 +12,7 @@ def index():
         else :
             return render_template("indexcopy.html", antwort= round(int(Eingabe)*100/884900,2), prozent="%", richtantwort="Antwort: 884900", deinantwort= "deine Antwort: ", eeingabe= int(Eingabe) )     
 
-    return render_template('index.html')
+    return render_template('JANEIN.html')
 
 
 if __name__ == '__main__':
